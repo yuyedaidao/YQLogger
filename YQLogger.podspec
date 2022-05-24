@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.source_files = 'YQLogger/Classes/**/*'
   
-  s.resource_bundles = {
-    'YQLogger' => ['YQLogger/Assets/*']
-  }
+  # s.resource_bundles = {
+  #   'YQLogger' => ['YQLogger/Assets/*']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.dependency 'Logging', '~> 1.4'
