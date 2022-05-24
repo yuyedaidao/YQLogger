@@ -1,0 +1,23 @@
+PODS:
+  - Logging (1.4.0)
+  - YQLogger (0.1.0):
+    - Logging (~> 1.4)
+
+DEPENDENCIES:
+  - YQLogger (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Logging
+
+EXTERNAL SOURCES:
+  YQLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Logging: beeb016c9c80cf77042d62e83495816847ef108b
+  YQLogger: 46cb94a3cbccc6a9332ea8b8eee2baf88ee0318f
+
+PODFILE CHECKSUM: 1bab262b3e0c597fba198eaf7a7fe522ba1e9e0f
+
+COCOAPODS: 1.11.3
