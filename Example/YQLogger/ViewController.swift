@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import YQLogger
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

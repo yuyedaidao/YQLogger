@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YQLogger'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'YQLogger.'
 
 # This description is used to generate tags and improve search results.
@@ -36,5 +36,5 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.dependency 'Logging'
+  s.dependency 'YQSwiftLog'
 end
