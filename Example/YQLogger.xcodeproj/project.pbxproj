@@ -271,10 +271,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YQLogger_Example/Pods-YQLogger_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YQLogger/YQLogger.framework",
 				"${BUILT_PRODUCTS_DIR}/YQSwiftLog/Logging.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YQLogger.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logging.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
